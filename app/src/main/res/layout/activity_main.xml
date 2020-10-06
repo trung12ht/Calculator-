@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/drawback"
+        android:clickable="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity=""
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:text="1+1=2"
+            android:textColor="#ffff"
+            android:textSize="72sp"
+            android:background="@drawable/main_header_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/keyboard"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="%"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="^2"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="^x"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="AC"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="1"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="2"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="3"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="+"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="4"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="5"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="6"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="-"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="7"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="8"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="9"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="*"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="+/-"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="0"
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="."
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_linear_color"
+                android:clickable="true"
+                android:fontFamily="@font/press_start_2p"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:shadowColor="#021343"
+                android:text="="
+                android:textColor="#000000"
+                android:textColorHighlight="#FF0202"
+                android:textColorHint="#FF00E5"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
