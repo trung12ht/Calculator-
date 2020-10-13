@@ -11,16 +11,29 @@
         android:background="@drawable/drawback"
         android:clickable="true"
         android:gravity="center">
-
         <TextView
+            android:id="@+id/so"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="3"
             android:gravity=""
             android:layout_margin="10dp"
             android:padding="20dp"
-            android:text="1+1=2"
+            android:text=""
             android:textColor="#ffff"
-            android:textSize="72sp"
+            android:textSize="40sp"
+            android:background="@drawable/main_header_selector"/>
+        <TextView
+            android:id="@+id/dau"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:gravity=""
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:text=""
+            android:textColor="#ffff"
+            android:textSize="40sp"
             android:background="@drawable/main_header_selector"/>
     </LinearLayout>
 
@@ -41,6 +54,7 @@
             >
 
             <Button
+                android:id="@+id/daumux"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -52,7 +66,7 @@
                 android:gravity="center"
                 android:selectAllOnFocus="true"
                 android:shadowColor="#021343"
-                android:text="%"
+                android:text="^X"
                 android:textColor="#000000"
                 android:textColorHighlight="#FF0202"
                 android:textColorHint="#FF00E5"
@@ -60,6 +74,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/dauchia"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -71,7 +86,7 @@
                 android:gravity="center"
                 android:selectAllOnFocus="true"
                 android:shadowColor="#021343"
-                android:text="^2"
+                android:text="/"
                 android:textColor="#000000"
                 android:textColorHighlight="#FF0202"
                 android:textColorHint="#FF00E5"
@@ -79,6 +94,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/C"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -90,7 +106,7 @@
                 android:gravity="center"
                 android:selectAllOnFocus="true"
                 android:shadowColor="#021343"
-                android:text="^x"
+                android:text="C"
                 android:textColor="#000000"
                 android:textColorHighlight="#FF0202"
                 android:textColorHint="#FF00E5"
@@ -98,6 +114,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/AC"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -126,6 +143,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/button1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -145,6 +163,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -164,6 +183,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -183,6 +203,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/daucong"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -211,6 +232,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/button4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -230,6 +252,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -249,6 +272,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -268,6 +292,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/dautru"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -296,6 +321,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/button7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -315,6 +341,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -334,6 +361,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -353,6 +381,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/daunhan"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -380,6 +409,7 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/begincongtru"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -399,6 +429,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/button0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -418,6 +449,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/giuacham"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -437,6 +469,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/bang"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
