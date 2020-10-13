@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                     pre="";
                 }
                 if (kitu.equals("-")) {
-                    now = String.valueOf(Float.parseFloat(pre)+ Float.parseFloat(now));
+                    now = String.valueOf(Float.parseFloat(pre)- Float.parseFloat(now));
                     pre="";
                 }
                 if (kitu.equals("*")) {
